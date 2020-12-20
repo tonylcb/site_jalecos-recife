@@ -17,34 +17,29 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
     <title>Jalecos Recife</title>
   </head>
   <body>
-    <header>
-      <div class="container-header">
-        <a href="index.html">
-          <img src="img/logo1.svg" alt="Logo" />
+    <header class="container-header">
+      <a href="index.html">
+        <img src="img/logo1.svg" alt="Logo" />
+      </a>
+      <nav class="menu">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#nossos-produtos">Nossos produtos</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+      </nav>
+      <div class="icones-header">
+        <a href="#compras">
+          <img src="img/bag.svg" class="icon-animation" alt="Compras" />
         </a>
-        <nav class="menu">
-          <li><a href="#inicio">Início</a></li>
-          <li><a href="#nossos-produtos">Nossos produtos</a></li>
-          <li><a href="#contato">Contato</a></li>
-          <li><a href="#sobre">Sobre</a></li>
-        </nav>
-        <div class="icones-header">
-          <a href="#compras">
-            <img
-              src="img/bag.svg"
-              class="icon-animation"
-              alt="Sacola de compras"
-            />
-          </a>
-          <a href="#perfil">
-            <img src="img/user.svg" class="icon-animation" alt="Usuário" />
-          </a>
-        </div>
+        <a href="#perfil">
+          <img src="img/user.svg" class="icon-animation" alt="Usuário" />
+        </a>
       </div>
     </header>
 
@@ -55,8 +50,47 @@
         <h2 class="subtit-principal">Algum subtitulo aqui</h2>
         <a href="#nossos-produtos" class="btn-principal">Nossos produtos</a>
       </section>
-    </main>
 
+      <section class="container-categorias">
+        <div class="bolinhas-subt destaques">
+          <h2 class="subtitulo">DESTAQUES</h2>
+          <img src="img/bolinhas-titulos.svg" alt="Bolinhas" />
+        </div>
+        <div>
+          <img src="img/destaque-foto1.jpg" alt="" />
+        </div>
+        <div class="bolinhas-subt produtos">
+          <h2 class="subtitulo">NOSSOS PRODUTOS</h2>
+          <img src="img/bolinhas-titulos.svg" alt="Bolinhas" />
+        </div>
+        <div class="container-produtos">
+          <a class="prod-pij" href="#produtos-pijama">
+            <p>Pijamas cirúrgicos</p>
+            <img
+              class="fotos-prod"
+              src="img/foto-produto-pij.jpg"
+              alt="Pijamas cirúrgicos"
+            />
+          </a>
+          <a class="prod-jal" href="#produtos-jalecos">
+            <p>Jalecos</p>
+            <img
+              class="fotos-prod"
+              src="img/foto-produto-jal.jpg"
+              alt="Jalecos"
+            />
+          </a>
+          <a class="prod-mac" href="#produtos-macacao">
+            <p>Macacão veterinário</p>
+            <img
+              class="fotos-prod"
+              src="img/foto-produto-mac.jpg"
+              alt="Macacão veterinário"
+            />
+          </a>
+        </div>
+      </section>
+    </main>
     <script src="js/script.js"></script>
   </body>
 </html>

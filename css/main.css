@@ -1,0 +1,63 @@
+.container-categorias {
+  background-image: url(/img/manchas.svg);
+  background-size: cover;
+  padding: 0px 96px 0px 96px;
+  box-shadow: 0px -2px 10px 5px rgba(0, 0, 0, 0.25);
+}
+.subtitulo {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  color: #7c121d;
+}
+
+.bolinhas-subt {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+
+.bolinhas-subt img {
+  margin: 10px 0 22px 2px;
+}
+
+.destaques,
+.produtos {
+  padding: 150px 0 0 0;
+}
+
+.container-produtos {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 547px;
+}
+
+.prod-pij,
+.prod-jal,
+.prod-mac {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5em;
+  color: rgba(136, 57, 64, 0.5);
+  text-decoration: none;
+}
+
+.prod-mac,
+.prod-pij {
+  align-self: flex-end;
+}
+
+.fotos-prod {
+  border-radius: 10px;
+  transition-property: all;
+  transition-duration: 0.35s;
+  transition-timing-function: ease;
+}
+
+.prod-pij:hover,
+.prod-jal:hover,
+.prod-mac:hover {
+  filter: drop-shadow(0px 5.44865px 5.44865px rgba(0, 0, 0, 0.25));
+  width: 302px;
+}
