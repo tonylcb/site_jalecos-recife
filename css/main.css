@@ -1,8 +1,9 @@
 .container-categorias {
   background-image: url(/img/manchas.svg);
   background-size: cover;
+  background-position: center;
   padding: 0px 96px 0px 96px;
-  box-shadow: 0px -2px 10px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px -25px 20px 5px rgba(0, 0, 0, 0.25);
 }
 .subtitulo {
   font-family: "Roboto", sans-serif;
@@ -30,6 +31,11 @@
   flex-flow: row nowrap;
   justify-content: space-between;
   height: 547px;
+  margin-bottom: 150px;
+}
+
+.container-produtos a p {
+  margin-bottom: 10px;
 }
 
 .prod-pij,
@@ -41,6 +47,9 @@
   font-size: 1.5em;
   color: rgba(136, 57, 64, 0.5);
   text-decoration: none;
+  transition-property: all;
+  transition-duration: 0.35s;
+  transition-timing-function: ease;
 }
 
 .prod-mac,
@@ -50,14 +59,11 @@
 
 .fotos-prod {
   border-radius: 10px;
-  transition-property: all;
-  transition-duration: 0.35s;
-  transition-timing-function: ease;
 }
 
 .prod-pij:hover,
 .prod-jal:hover,
 .prod-mac:hover {
-  filter: drop-shadow(0px 5.44865px 5.44865px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.25));
   width: 302px;
 }
