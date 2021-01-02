@@ -6,12 +6,10 @@
 
     <link rel="shortcut icon" href="img/icon-jaleco.svg" type="image/x-icon" />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap"
       rel="stylesheet"
@@ -23,6 +21,7 @@
 
     <title>Jalecos Recife</title>
   </head>
+
   <body>
     <header class="container-header">
       <a href="index.html">
@@ -31,8 +30,8 @@
       <nav class="menu">
         <li><a href="#inicio">Início</a></li>
         <li><a href="#nossos-produtos">Nossos produtos</a></li>
-        <li><a href="#contato">Contato</a></li>
-        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contato">Sobre</a></li>
+        <li><a href="#sobre">Contato</a></li>
       </nav>
       <div class="icones-header">
         <a href="#compras">
@@ -53,16 +52,39 @@
       </section>
 
       <section class="container-categorias">
-        <div class="bolinhas-subt destaques">
-          <h2 class="subtitulo">DESTAQUES</h2>
-          <img src="img/bolinhas-titulos.svg" alt="Bolinhas" />
+        <div class="destaques">
+          <h2 class="subtitulo js-titulos">DESTAQUES</h2>
+          <img
+            src="img/bolinhas-titulos.svg"
+            alt="Bolinhas"
+            class="js-bolinhas"
+          />
         </div>
-        <div>
-          <img src="img/destaque-foto1.jpg" alt="" />
+        <div class="card-destaques js-destaques">
+          <div class="card-info">
+            <p class="card-desc">Blusa cirúrgica estampada e calça azul</p>
+            <div class="preco-tamanho">
+              <p>R$ 300,00</p>
+              <ul>
+                <li>PP</li>
+                <li>P</li>
+                <li>M</li>
+                <li>G</li>
+                <li>GG</li>
+                <li>EGG</li>
+              </ul>
+            </div>
+          </div>
+          <a href="#favoritos">Adicionar aos favoritos</a>
         </div>
-        <div class="bolinhas-subt produtos">
-          <h2 class="subtitulo">NOSSOS PRODUTOS</h2>
-          <img src="img/bolinhas-titulos.svg" alt="Bolinhas" />
+
+        <div class="produtos">
+          <h2 class="subtitulo js-titulos">NOSSOS PRODUTOS</h2>
+          <img
+            src="img/bolinhas-titulos.svg"
+            alt="Bolinhas"
+            class="js-bolinhas"
+          />
         </div>
         <div class="container-produtos">
           <a class="prod-pij" href="#produtos-pijama">
@@ -108,8 +130,12 @@
           </ul>
           <ul>
             <p>Siga-nos</p>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
+            <li>
+              <a href="#"><img src="img/facebook-icon.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"><img src="img/instagram-icon.svg" alt="" /></a>
+            </li>
           </ul>
         </div>
         <img src="img/logo-footer.svg" alt="" />
@@ -118,6 +144,6 @@
         <p>Coyright - Todos os direitos reservados</p>
       </div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

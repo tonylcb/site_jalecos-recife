@@ -21,16 +21,13 @@ footer {
 .container-footer p {
   color: #7c121d;
   font-family: "Roboto", sans-serif;
-  font-size: 1em;
+  font-size: 1rem;
   font-weight: 500;
 }
 
 ul {
   line-height: 25px;
-}
-
-li {
-  list-style-type: none;
+  list-style: none;
 }
 
 li a {
